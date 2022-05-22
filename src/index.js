@@ -81,7 +81,7 @@ const refs = {
   
     const markupCard = `
       <div class="title">
-        <img class="country-flag" src="${svg}" alt="flag of ${official}" width="32px" />
+        <img class="country-flag" src="${svg}" alt="flag of ${official}" width="60px" />
         <p class="country">${official}</p>
       </div>
       <p class="property">Capital: <span class="value">${capital}</span></p>

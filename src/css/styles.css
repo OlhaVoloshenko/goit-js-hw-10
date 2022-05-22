@@ -15,6 +15,54 @@ body {
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  max-width: 360px;
   margin-bottom: 16px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 0;
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+.country-item {
+  display: flex;
+}
+
+.country-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.country-flag {
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.country {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.property {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.value {
+  font-weight: 400;
 }
